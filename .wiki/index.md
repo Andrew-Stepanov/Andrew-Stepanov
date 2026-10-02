@@ -11,7 +11,6 @@ GitHub profile README. Прикладного кода нет.
 
 ## Связанные репозитории
 
-- `frontier` — Next.js сайт (основной риск зависимостей)
-- `webhook-progkids` — Express webhooks / SendGrid
-- `popup` — callback form service
-- `lesson-calculator` — статический калькулятор
+Заброшены (не в weekly scan): `frontier`, `webhook-progkids`, `popup` — см. [security.md](security.md).
+
+Прочие: `lesson-calculator` (статический калькулятор) и учебные HTML/CSS-проекты.
