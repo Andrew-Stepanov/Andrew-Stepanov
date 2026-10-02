@@ -1,22 +1,7 @@
 # Безопасность
 
-## Расписание
+Еженедельные проверки уязвимостей **отключены** (2026-10-02).
 
-Раз в неделю агент проверяет репозитории (кроме исключений) на:
+Причина: в публичных репозиториях Andrew-Stepanov нет проектов, которые владелец хочет регулярно сканировать.
 
-- `npm audit` (critical/high в приоритете)
-- секреты в исходниках
-- статус Dependabot / workflows
-- грубые проблемы гигиены (закоммиченный `node_modules`, открытые эндпоинты)
-
-Отчёты: [`.security/reports/`](../.security/reports/).
-
-## Исключения
-
-Не проверять (заброшены, 2026-10-02): `frontier`, `webhook-progkids`, `popup`.  
-Список: [`.security/SKIP.md`](../.security/SKIP.md).
-
-## Как запускать
-
-1. Cursor Automation с промптом из [`.security/WEEKLY_PROMPT.md`](../.security/WEEKLY_PROMPT.md).
-2. Или ручной запуск Cloud Agent с тем же текстом.
+История: [`.security/reports/2026-10-01.md`](../.security/reports/2026-10-01.md).
